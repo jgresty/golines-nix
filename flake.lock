@@ -1,0 +1,60 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1667395993,
+        "narHash": "sha256-nuEHfE/LcWyuSWnS8t12N1wc105Qtau+/OdUAjtQ0rA=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "5aed5285a952e0b949eb3ba02c12fa4fcfef535f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "golines": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1659839741,
+        "narHash": "sha256-2K9KAg8iSubiTbujyFGN3yggrL+EDyeUCs9OOta/19A=",
+        "owner": "segmentio",
+        "repo": "golines",
+        "rev": "dbd4a9c66ffb28554be0c34b4a85d01c2b95ce43",
+        "type": "github"
+      },
+      "original": {
+        "owner": "segmentio",
+        "ref": "v0.11.0",
+        "repo": "golines",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1668781575,
+        "narHash": "sha256-tvdc1adA/IsvIAUH8QbWIDJpmf5pO83p09mSG7V8sIw=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "7edfbbbad1ad53618278851e02cb5326976f77b6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "golines": "golines",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
