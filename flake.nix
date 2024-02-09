@@ -8,7 +8,7 @@
     flake-utils.url = "github:numtide/flake-utils";
 
     golines = {
-      url = "github:segmentio/golines/v0.11.0";
+      url = "github:segmentio/golines/v0.12.2";
       flake = false;
     };
   };
@@ -19,10 +19,10 @@
       in rec {
         packages.default = pkgs.buildGoModule rec {
           pname = "golines";
-          version = "0.11.0";
+          version = "0.12.2";
           src = golines;
 
-          vendorSha256 = "sha256-rxYuzn4ezAxaeDhxd8qdOzt+CKYIh03A9zKNdzILq18=";
+          vendorHash = "sha256-jI3/m1UdZMKrS3H9jPhcVAUCjc1G/ejzHi9SCTy24ak=";
         };
       });
 }
